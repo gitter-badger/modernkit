@@ -23,11 +23,8 @@
 
 #include <iostream>
 #include <fstream>
-#include <cstdlib>
-#include <cstdio>
 #include <string>
 #include <vector>
-#include <future>
 #include "modernkit.h"
 #include "typecode.h"
 
@@ -112,18 +109,21 @@ namespace MK {
                 for (int i = 1; i < elms->getLength(); i++) {
                     curr = elms->item(i);
                     if (curr->hasChildNodes() == true) {
-                        std::async(MK::HTML::walkDOM,curr, callback);
+                        MK::HTML::walkDOM(curr, callback);
                     }
-                    std::async(callback,curr);
+                    callback(curr);
                 }
             }
         }
-        HTMLText* type(HTMLElement* elm) {
+        std::string type(HTMLElement* elm) {
             char* nodeName = xercesc::XMLString::transcode(elm->getNodeName());
             std::string str(nodeName);
-            std::vector<char> ret(str.begin(), str.end());
-            ret.push_back('\0');
-            return &ret[0];
+            return str;
+        }
+        const HTMLText* ctype(HTMLElement* elm) {
+            char* nodeName = xercesc::XMLString::transcode(elm->getNodeName());
+            std::string str(nodeName);
+            return str.c_str();
         }
     };
     HTMLText* toText(const XMLCh* text) {
