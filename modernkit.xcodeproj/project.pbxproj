@@ -1,0 +1,218 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		FE20F5E41AD961CC00F084C4 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		FE9B0B9B1AD8BB86002A5965 /* file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file.cpp; sourceTree = "<group>"; };
+		FE9B0B9C1AD8BB86002A5965 /* html.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = html.cpp; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		FE9B0B9D1AD8BB86002A5965 /* libxerces-c.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libxerces-c.a"; sourceTree = "<group>"; };
+		FE9B0B9E1AD8BB86002A5965 /* libxerces-c.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libxerces-c.dylib"; sourceTree = "<group>"; };
+		FE9B0B9F1AD8BB86002A5965 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE9B0BA01AD8BB86002A5965 /* modernkit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = modernkit.cpp; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		FE9B0BA11AD8BB86002A5965 /* modernkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modernkit.h; sourceTree = "<group>"; };
+		FE9B0BA21AD8BB86002A5965 /* xercesc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xercesc; sourceTree = "<group>"; };
+		FE9B0BA31AD8BBAB002A5965 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		FEE200B11AD9C2650068E13E /* machine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machine.cpp; sourceTree = "<group>"; };
+		FEE200B21AD9C43C0068E13E /* typecode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = typecode.h; path = modernkit.xcodeproj/../typecode.h; sourceTree = "<group>"; };
+		FEE502C01ADB031B00DF6240 /* mk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mk.cpp; sourceTree = "<group>"; };
+		FEE502C11ADB031B00DF6240 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		FEE502C21ADB076500DF6240 /* wrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wrapper.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FE2C380C1AD8BB4A00A58A79 = {
+			isa = PBXGroup;
+			children = (
+				FE9B0B9B1AD8BB86002A5965 /* file.cpp */,
+				FE9B0B9C1AD8BB86002A5965 /* html.cpp */,
+				FE9B0B9D1AD8BB86002A5965 /* libxerces-c.a */,
+				FE9B0B9E1AD8BB86002A5965 /* libxerces-c.dylib */,
+				FE9B0B9F1AD8BB86002A5965 /* LICENSE */,
+				FE9B0BA01AD8BB86002A5965 /* modernkit.cpp */,
+				FEE502C01ADB031B00DF6240 /* mk.cpp */,
+				FEE502C21ADB076500DF6240 /* wrapper.mm */,
+				FEE502C11ADB031B00DF6240 /* test.html */,
+				FEE200B11AD9C2650068E13E /* machine.cpp */,
+				FE20F5E41AD961CC00F084C4 /* types.h */,
+				FE9B0BA11AD8BB86002A5965 /* modernkit.h */,
+				FEE200B21AD9C43C0068E13E /* typecode.h */,
+				FE9B0BA31AD8BBAB002A5965 /* Makefile */,
+				FE9B0BA21AD8BB86002A5965 /* xercesc */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FE2C38111AD8BB4A00A58A79 /* modernkit */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = FE2C38141AD8BB4A00A58A79 /* Build configuration list for PBXLegacyTarget "modernkit" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = modernkit;
+			passBuildSettingsInEnvironment = 1;
+			productName = modernkit;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		FE2C380D1AD8BB4A00A58A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ArielAbreu;
+				TargetAttributes = {
+					FE2C38111AD8BB4A00A58A79 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = FE2C38101AD8BB4A00A58A79 /* Build configuration list for PBXProject "modernkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE2C380C1AD8BB4A00A58A79;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE2C38111AD8BB4A00A58A79 /* modernkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		FE2C38121AD8BB4A00A58A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE2C38131AD8BB4A00A58A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE2C38151AD8BB4A00A58A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE2C38161AD8BB4A00A58A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE2C38101AD8BB4A00A58A79 /* Build configuration list for PBXProject "modernkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2C38121AD8BB4A00A58A79 /* Debug */,
+				FE2C38131AD8BB4A00A58A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2C38141AD8BB4A00A58A79 /* Build configuration list for PBXLegacyTarget "modernkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2C38151AD8BB4A00A58A79 /* Debug */,
+				FE2C38161AD8BB4A00A58A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE2C380D1AD8BB4A00A58A79 /* Project object */;
+}
