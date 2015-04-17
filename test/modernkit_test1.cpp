@@ -33,7 +33,7 @@
 
 void domFunc(HTMLElement* elm) {
   if (MK::HTML::type(elm) == "p") {
-    std::cout << MK::HTML::getText
+    std::cout << MK::HTML::getText(elm) << std::endl;
   }
 }
 
@@ -41,8 +41,8 @@ int main(int argc, char* argv[]) {
 	initHTML();
 	HTMLElement* head;
 	HTMLElement* body;
-  Parser* html = parseHTML(openFile("test1.html"));
-  HTMLDocument* doc = html->getDocument();
+	Parser* html = parseHTML(openFile("test1.html"));
+	HTMLDocument* doc = html->getDocument();
 	head = MK::HTML::getHead(doc);
 	body = MK::HTML::getBody(doc);
 	std::cout << MK::HTML::getTitle(head) << std::endl;
