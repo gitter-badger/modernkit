@@ -4,6 +4,4 @@ compiler:
   - g++
 
 script:
-  - cd tests
-  - make
-  - ./modernkit_test1
+  - ls
