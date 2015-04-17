@@ -5,6 +5,9 @@ sudo: required
 compiler:
   - g++
 
+before_install:
+  - sh ./travis-support/Xerces.sh
+
 script:
   - cd test
   - make
