@@ -99,8 +99,9 @@ namespace MK {
             endHTML();
             return result;
         }
-        HTMLText* getText(HTMLElement* elm) {
-            return xercesc::XMLString::transcode(elm->getTextContent());
+        std::string* getText(HTMLElement* elm) {
+            std::string str(xercesc::XMLString::transcode(elm->getTextContent()));
+            return str;
         }
         void walkDOM(HTMLElement* start, std::function<void(HTMLElement*)> callback) {
             if (start->hasChildNodes() == true) {
