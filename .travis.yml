@@ -1,15 +1,7 @@
 language: cpp
 
 compiler:
-  - clang
-
-before_install:
-  - if [ "$CXX" == "clang++" ]; then sudo apt-add-repository -y ppa:h-rayflood/llvm; fi
-  - sudo apt-get update -qq
-
-install:
-  - if [ "$CXX" == "clang++" ]; then sudo apt-get install --alow-unauthenticated -qq clang-3.4; fi
-  - if [ "$CXX" == "clang++" ]; then export CXX="clang++-3.4"; fi
+  - g++
 
 script:
   - cd tests
