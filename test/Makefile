@@ -1,7 +1,16 @@
 CXX=`$CXX`
-OBJ1=modernkit_test1.o file.cpp html.cpp modernkit.cpp
+FILE1=html.cpp modernkit_test1.cpp machine.cpp file.cpp
+OBJ1=html.o modernkit_test1.o machine.o file.o
+INC=../include
 
 all: modernkit_test
 
-modernkit_test: $(OBJ1)
-	$(CXX) -o modernkit_test1 $(OBJ1)
+obj1: $(FILE1)
+	$(CXX) -c $(FILE1) $(INC)
+
+modernkit_test: obj1
+	$(CXX) $(OBJ1) -L.. -lxerces-c-3.1 -o modernkit_test1
+
+.PHONY: clean
+clean:
+	rm -rf *.o
