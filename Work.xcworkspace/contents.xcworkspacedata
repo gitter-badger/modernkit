@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:file.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:html.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:html.o">
+   </FileRef>
+   <FileRef
+      location = "group:include">
+   </FileRef>
+   <FileRef
+      location = "group:libxerces-c.a">
+   </FileRef>
+   <FileRef
+      location = "group:libxerces-c.dylib">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:machine.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:machine.o">
+   </FileRef>
+   <FileRef
+      location = "group:Makefile">
+   </FileRef>
+   <FileRef
+      location = "group:mk.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:modernkit">
+   </FileRef>
+   <FileRef
+      location = "group:modernkit.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:modernkit.h">
+   </FileRef>
+   <FileRef
+      location = "group:modernkit.o">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:test">
+   </FileRef>
+   <FileRef
+      location = "group:test.html">
+   </FileRef>
+   <FileRef
+      location = "group:travis-support">
+   </FileRef>
+   <FileRef
+      location = "group:types.o">
+   </FileRef>
+   <FileRef
+      location = "group:variables.o">
+   </FileRef>
+   <FileRef
+      location = "group:wrapper.mm">
+   </FileRef>
+   <FileRef
+      location = "group:xercesc">
+   </FileRef>
+</Workspace>

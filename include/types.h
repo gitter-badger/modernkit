@@ -24,12 +24,12 @@
 #ifndef modernkit_types_h
 #define modernkit_types_h
 
-#include "xercesc/parsers/XercesDOMParser.hpp"
-#include "xercesc/dom/DOM.hpp"
-#include "xercesc/sax/HandlerBase.hpp"
-#include "xercesc/util/XMLString.hpp"
-#include "xercesc/util/PlatformUtils.hpp"
-#include "xercesc/framework/MemBufInputSource.hpp"
+#include <xercesc/parsers/XercesDOMParser.hpp>
+#include <xercesc/dom/DOM.hpp>
+#include <xercesc/sax/HandlerBase.hpp>
+#include <xercesc/util/XMLString.hpp>
+#include <xercesc/util/PlatformUtils.hpp>
+#include <xercesc/framework/MemBufInputSource.hpp>
 #include <vector>
 
 typedef xercesc::DOMDocument HTMLDocument;
