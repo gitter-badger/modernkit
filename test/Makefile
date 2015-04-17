@@ -1,5 +1,5 @@
 CXX=`$CXX`
-FILE1=html.cpp modernkit_test1.cpp machine.cpp file.cpp
+FILE1=../html.cpp modernkit_test1.cpp ../machine.cpp ../file.cpp
 OBJ1=html.o modernkit_test1.o machine.o file.o
 INC=../include
 
