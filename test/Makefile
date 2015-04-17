@@ -12,5 +12,9 @@ modernkit_test: obj1
 	$(CXX) $(OBJ1) -L.. -lxerces-c-3.1 -o modernkit_test1
 
 .PHONY: clean
+.PHONY: test
 clean:
 	rm -rf *.o
+
+test:
+	./modernkit_test1
